@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, 'Trebuchet MS' , sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #141414;
+    color: #ddd;
+}
+
+img{
+    width: 25.75rem;
+    height: 25.75rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+p{
+    margin-top: 1rem;
+}
+
+.description{
+    width: 18.75rem;
+}
+
+input[type="range"] {
+    margin-top: 2rem;
+}
+
+
+
+h2{
+    margin-bottom: 5px;
+}
+
+.duration{
+    width: 18.75rem;
+    margin-top: .5rem;
+}
+
+.bar{
+    width: 18.75rem;
+    height: 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress{
+    height: 0.5rem;
+    width: 0%;
+    background-color: transparent;
+}
+
+.point{
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-left: -0.55rem;
+}
+
+.time{
+    display: flex;
+    width: 18.75rem;
+    justify-content: space-between;
+}
+
+.player{
+    width: 18.75rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -0.99rem;
+}
+
+.btnPlay, .btnPause{
+    font-size: 2.7rem;
+    cursor: pointer;
+}
+
+.arrow{
+    font-size: 2.7rem;
+    cursor: pointer;
+}
+
+.btnPause{
+    display: none;
+}
+
